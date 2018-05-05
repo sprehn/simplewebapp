@@ -1,4 +1,4 @@
-g## Introduction
+## Introduction
 
 The goal of this proof of concept is to demonstrate a solution on how regular JSF2 web applications can be enabled for (Auto-) Scalability, High Availability (HA), and Disaster Recovery (DR). 
 This requires to load balance requests over multiple application servers in multiple data centers (or Availability Zones). A common problem is handling session state accross multiple http requests. Session state is very common in modern web applications. Just think of the information: Is the user logged in or not.  
