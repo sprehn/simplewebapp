@@ -63,10 +63,7 @@ redis-server
 log into cli
 ````bash
 redis-cli
-```
 
-useful commnads
-```bash
 # to set a password on a running redis instance
 127.0.0.1:6379> CONFIG set requirepass secret
 
